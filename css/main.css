@@ -399,7 +399,6 @@
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: black;
 }
 
 .contact__list {
@@ -409,6 +408,7 @@
       grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
+  color: black;
 }
 
 .contact .social-icons {

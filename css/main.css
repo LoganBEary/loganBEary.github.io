@@ -26,7 +26,7 @@
 }
 
 .home__name--last {
-  color: #800112;
+  color: #dd4646;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #800112;
+  color: #dd4646;
 }
 
 .nav .menu-nav__link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #800112;
+  color: #dd4646;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -217,6 +217,7 @@
 .about__bio {
   width: 80%;
   text-align: center;
+  margin-top: 100px;
 }
 
 .about__bio .text-secondary {
@@ -236,7 +237,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #800112;
+  border-bottom: 5px solid #dd4646;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
@@ -260,6 +261,11 @@
 .about footer {
   -webkit-transform: rotate(90deg) translateX(-3rem, -5rem);
           transform: rotate(90deg) translateX(-3rem, -5rem);
+}
+
+.about__face {
+  width: 200px;
+  height: 200px;
 }
 
 .projects {
@@ -304,7 +310,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #800112;
+  border-bottom: 5px solid #dd4646;
   overflow: hidden;
   cursor: pointer;
 }
@@ -321,7 +327,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #800112;
+  background: #dd4646;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -354,13 +360,13 @@
 
 .projects__btn {
   opacity: 0;
-  color: #fff;
+  color: #000;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .projects__btn:hover {
-  color: #000;
+  color: #fff;
 }
 
 .projects .social-icons {
@@ -492,7 +498,7 @@ a {
 }
 
 .text-secondary {
-  color: #800112;
+  color: #dd4646;
 }
 
 header {
@@ -520,7 +526,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #db4d60;
+  color: #dd4646;
 }
 
 footer {

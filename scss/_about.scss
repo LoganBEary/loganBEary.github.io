@@ -25,11 +25,12 @@
     &__bio {
         width: 80%;
         text-align: center;
+        margin-top: 100px;
 
         .text-secondary {
             padding-bottom: 1rem;
         }
-    }
+    }  
 
     .jobs {
         width: 60vw;
@@ -63,4 +64,8 @@
             rotate(90deg)
             translateX(-3rem, -5rem);
     }
+}
+.about__face {
+    width: 300px; 
+    height: 300px;
 }

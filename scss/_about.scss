@@ -10,7 +10,7 @@
                 rgba($primary-color, 0.2),
                 rgba($primary-color, 0.2)
             ),
-            url('../img/cover.jpg') center top;
+            url('../img//cover.jpg') center top;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -23,9 +23,10 @@
     }
 
     &__bio {
-        width: 80%;
+        width: 90%;
         text-align: center;
-        margin-top: 100px;
+        //Margin -20 in order to lower Bio under headerbar
+        margin:-20px;
 
         .text-secondary {
             padding-bottom: 1rem;
@@ -66,6 +67,6 @@
     }
 }
 .about__face {
-    width: 300px; 
-    height: 300px;
+    width: 250px; 
+    height: 250px;
 }

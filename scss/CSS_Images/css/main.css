@@ -212,6 +212,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .about__bio-image p {
@@ -270,6 +271,7 @@
 .about__face {
   width: 250px;
   height: 250px;
+  border-radius: 40px;
 }
 
 .projects {
